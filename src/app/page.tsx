@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -133,28 +133,28 @@ export default function LandingPage() {
           products={[
             {
               id: "track-1",
-              button: { text: "Stream Now", id: "stream-1" },
+              button: { text: "Stream Now" },
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764949131839-a39op6lz.jpg",
               imageAlt: "Track artwork studio",
               isFavorited: false
             },
             {
               id: "track-2",
-              button: { text: "Stream Now", id: "stream-2" },
+              button: { text: "Stream Now" },
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764949133353-3yb4mx4i.jpg",
               imageAlt: "Track artwork recording",
               isFavorited: false
             },
             {
               id: "track-3",
-              button: { text: "Stream Now", id: "stream-3" },
+              button: { text: "Stream Now" },
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764949134139-jznlaewf.jpg",
               imageAlt: "Track artwork mixer",
               isFavorited: false
             },
             {
               id: "track-4",
-              button: { text: "Stream Now", id: "stream-4" },
+              button: { text: "Stream Now" },
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764949131839-a39op6lz.jpg",
               imageAlt: "Track artwork production",
               isFavorited: false
